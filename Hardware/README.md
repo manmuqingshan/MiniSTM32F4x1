@@ -8,7 +8,7 @@
 
 > Bottom add short circuit pad, welding pad, `USB C` support output `5V`, support `USB Host`
 
-> Change LDO to `ME6206A33XG` for easy maintenance
+> Change LDO to `ME6231A33M3G` for easy maintenance
 
 > Metallized Logo
 
