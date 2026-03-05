@@ -142,7 +142,7 @@ int main(void)
 #define STD_MAX_DELAY      0xFFFFFFFFU
 static __IO uint32_t uwTimingDelay = 0;
 
-__weak uint32_t STD_GetTick(void)
+__attribute__((weak)) uint32_t STD_GetTick(void)
 {
   return uwTimingDelay;
 }

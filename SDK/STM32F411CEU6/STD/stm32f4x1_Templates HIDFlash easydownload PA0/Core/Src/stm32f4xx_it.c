@@ -139,7 +139,7 @@ void PendSV_Handler(void)
   * @retval None
   */
 
-__weak void STD_TimingDelay_Iecrement(void)
+__attribute__((weak)) void STD_TimingDelay_Iecrement(void)
 {
 	
 }
@@ -171,7 +171,7 @@ void SysTick_Handler(void)
   * @retval None
   */
 
-__weak void TIM3_IT_Update_Callback()
+__attribute__((weak)) void TIM3_IT_Update_Callback()
 {
 	
 }

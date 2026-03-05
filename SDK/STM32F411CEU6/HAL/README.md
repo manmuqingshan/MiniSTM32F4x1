@@ -2,10 +2,11 @@
 
 * [中文版本](./README-zh.md)
 
-1. `xxxx_ADC`               is used to measure duty cycle and frequency of rectangular wave for ADC
-2. `xxxx_test`              is the factory test routine breathing lamp, USBCDC function, RTC function
-3. `XXXX_USBDisk+fatfs`     for usb drives and FATFS file system routines require external FLASH
-4. `STM32F411_test_CubeIDE` CubeIDE sample
+* `01-GPIO`' GPIO test. Press KEY, LED flash. If KEY is not pressed, LED flash slowly
+* `02-ADC_RTC_test` ADC and RTC test, using USB CDC virtual serial port to display dataE
+* `04-USBDisk+FATFS` Emulates usb and FATFS file system routines, requiring external FLASH
+* `05-SPIFlash_Erase`  SPI Flash Erase routines, requiring external FLASH
+* `06-F401_ST7735` The ST7735 LCD display routine, requires an external screen
 
 ## Important note
 
